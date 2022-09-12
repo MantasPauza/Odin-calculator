@@ -47,12 +47,11 @@ class Calculator {
     if (this.operation === '+') {
         result = current + prev;
     } else if (this.operation === '-') {
-        result = current - prev;
-        console.log(result);
+        result = prev - current;
     } else if (this.operation === '*') {
         result = current * prev;
     } else if (this.operation === '/') {
-        result = current / prev;
+        result = prev / current;
     } else return;
     this.currentOperand = result;
     this.operation = undefined;
