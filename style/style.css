@@ -1,1 +1,35 @@
-/*# sourceMappingURL=style.css.map */
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button {
+  box-shadow: rgba(21, 27, 32, 0.2) 0px 8px 24px;
+}
+
+.calculator {
+  background-color: rgb(219, 219, 219);
+  border-radius: 25px;
+  justify-items: center;
+}
+.calculator .output_container {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+.calculator .output_container .result_output {
+  border: solid black 0.5px;
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: end;
+  padding: 10px;
+}
+.calculator .output_container .delete {
+  background-color: rgba(255, 0, 0, 0.407);
+  font-weight: bold;
+}
+.calculator .output_container .delete:hover {
+  background-color: rgb(255, 0, 0) !important;
+}/*# sourceMappingURL=style.css.map */

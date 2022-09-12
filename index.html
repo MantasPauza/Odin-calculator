@@ -4,14 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello from starter-kit!</title>
+    <title>Calculator App</title>
 
     <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
-    <h1>Hello from starter-kit!</h1>
+    <div class="wrapper d-flex align-center justify-content-center m-5 p-5">
+    <div class="calculator d-grid gap-5 p-4">
+      <div class="output_container">
+      <div class="result_output">xxx</div>
+        <button type="button" class="btn btn-default delete">C</button>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-default seven">7</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default eight">8</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default nine">9</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default plus">+</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-default four">4</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default five">5</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default six">6</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default minus">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-default one">1</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default two">2</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default three">3</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-default multiply">*</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+        <button type="button" class="btn btn-default dot">.</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-default zero">0</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-default divide">/</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-default equal">=</button>
+      </div>
+      </div>
+    </div>
+  </div>
   </body>
 
   <script src="./script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
 </html>
