@@ -1,35 +1,70 @@
-button:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
 
-button {
-    box-shadow: rgba(21, 27, 32, 0.2) 0px 8px 24px;
-}
 
 .calculator {
-    background-color: rgb(219, 219, 219);
-    border-radius: 25px;
-    justify-items: center;
-    .output_container {
-        display: flex;
-        width: 100%;
-        gap: 5px;
-        .result_output {
-        border: solid black 0.5px;
-        color: black;
-        border-radius: 5px;
-        width: 100%;
-        height: 100%;
-        background-color: white;
-        text-align: end;
-        padding: 10px;
-        }
-        .delete {
-            background-color: rgba(255, 0, 0, 0.407);
-            font-weight: bold;
-        }
-        .delete:hover {
-            background-color: rgb(255, 0, 0) !important;
+  background-color: rgb(219, 219, 219);
+  border-radius: 25px;
+  justify-items: center;
+  .top_zone {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    gap: 5px;
+  }
+  .delete_button_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    .delete {
+      background-color: rgba(236, 71, 71, 0.407);
+      font-weight: bold;
+      width: 100%;
     }
-}   
+    .delete:hover,
+    .clear:hover {
+      background-color: rgb(255, 0, 0) !important;
+    }
+    .clear {
+      background-color: rgb(154, 37, 37);
+      font-weight: bold;
+    }
+  }
+  .output_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.09);
+    font-weight: bold; 
+    background-color: rgb(192, 192, 192);
+    text-align: end;
+    padding: 10px;
+    justify-content: space-around;
+    .prev_oper {
+      font-size: small;
+      color: rgba(43, 43, 43, 0.803);
+    }
+    .current_oper {
+      font-size: large;
+    }
+  }
+  .equal:hover {
+    background-color: green !important;
+  }
 }
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(20, 43, 171, 0.603) !important;
+  }
+  
+  button {
+    box-shadow: rgba(21, 27, 32, 0.2) 0px 8px 24px;
+  }
