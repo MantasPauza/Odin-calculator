@@ -19,70 +19,121 @@
     <div class="wrapper d-flex align-center justify-content-center p-5">
       <div class="calculator d-grid gap-3 p-4">
         <div class="top_zone">
-        <div class="output_container">
-          <div class="prev_oper"></div>
-          <div class="current_oper"></div>
-        </div>
-        <div class="delete_button_container">
-        <button type="button" data-clear class="btn btn-default clear">AC</button>
-        <button type="button" data-delete class="btn btn-default delete">C</button>
-      </div>
-      </div>
-        <div class="row">
-          <div class="col">
-            <button type="button" data-number class="btn btn-default">7</button>
+          <div class="output_container">
+            <div class="prev_oper"></div>
+            <div class="current_oper"></div>
           </div>
-          <div class="col">
-            <button type="button" data-number class="btn btn-default">8</button>
-          </div>
-          <div class="col">
-            <button type="button" data-number class="btn btn-default">9</button>
-          </div>
-          <div class="col">
-            <button type="button" data-operation class="btn btn-default multiply">*</button>
+          <div class="delete_button_container">
+            <button
+              type="button"
+              id="clearButton"
+              class="btn btn-default clear"
+            >
+              AC
+            </button>
+            <button
+              type="button"
+              id="deleteButton"
+              class="btn btn-default delete"
+            >
+              C
+            </button>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <button type="button" data-number class="btn btn-default">4</button>
+            <button type="button" id="numberButton" class="btn btn-default">
+              7
+            </button>
           </div>
           <div class="col">
-            <button type="button" data-number class="btn btn-default">5</button>
+            <button type="button" id="numberButton" class="btn btn-default">
+              8
+            </button>
           </div>
           <div class="col">
-            <button type="button" data-number class="btn btn-default">6</button>
+            <button type="button" id="numberButton" class="btn btn-default">
+              9
+            </button>
           </div>
           <div class="col">
-            <button type="button" data-operation class="btn btn-default">-</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <button type="button" data-number class="btn btn-default">1</button>
-          </div>
-          <div class="col">
-            <button type="button" data-number class="btn btn-default">2</button>
-          </div>
-          <div class="col">
-            <button type="button" data-number class="btn btn-default">3</button>
-          </div>
-          <div class="col">
-            <button type="button" data-operation class="btn btn-default">+</button>
-            
+            <button
+              type="button"
+              id="operationButton"
+              class="btn btn-default multiply"
+            >
+              *
+            </button>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <button type="button" data-number class="btn btn-default">.</button>
+            <button type="button" id="numberButton" class="btn btn-default">
+              4
+            </button>
           </div>
           <div class="col">
-            <button type="button" data-number class="btn btn-default">0</button>
+            <button type="button" id="numberButton" class="btn btn-default">
+              5
+            </button>
           </div>
           <div class="col">
-            <button type="button" data-operation class="btn btn-default">/</button>
+            <button type="button" id="numberButton" class="btn btn-default">
+              6
+            </button>
           </div>
           <div class="col">
-            <button type="button" data-equal class="btn btn-default equal">=</button>
+            <button type="button" id="operationButton" class="btn btn-default">
+              -
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" id="numberButton" class="btn btn-default">
+              1
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" id="numberButton" class="btn btn-default">
+              2
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" id="numberButton" class="btn btn-default">
+              3
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" id="operationButton" class="btn btn-default">
+              +
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" id="numberButton" class="btn btn-default">
+              .
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" id="numberButton" class="btn btn-default">
+              0
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" id="operationButton" class="btn btn-default">
+              /
+            </button>
+          </div>
+          <div class="col">
+            <button
+              type="button"
+              id="equalButton"
+              class="btn btn-default equal"
+            >
+              =
+            </button>
           </div>
         </div>
       </div>
